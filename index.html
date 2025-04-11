@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MAB Bank Statement</title>
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        margin: 0;
-        font-family: sans-serif;
-        background-color: #f5f5f5;
-      }
-      img.statement {
-        max-width: 90%;
-        height: auto;
-        margin-bottom: 30px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        border-radius: 12px;
-      }
-      img.qr {
-        width: 200px;
-        height: 200px;
-      }
-    </style>
-  </head>
-  <body>
-    <img class="statement" src="MabBank.jpg" alt="MAB Statement" />
-    <img
-      class="qr"
-      src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://mab-statement.vercel.app/statament/id-0760191076003324018"
-      alt="QR Code"
-    />
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MAB Bank Statement</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    img.statement {
+      max-width: 90%;
+      height: auto;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <img class="statement" src="MabBank.jpg" alt="MAB Bank Statement"/>
+</body>
 </html>
