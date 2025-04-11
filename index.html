@@ -3,28 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MAB Bank Statement</title>
+  <title>MAB Certificate</title>
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #f5f5f5;
+    }
+
     body {
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      align-items: center;
     }
-    img.statement {
-      max-width: 90%;
+
+    img {
+      width: 100%;
       height: auto;
-      margin-bottom: 30px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      max-width: 1000px; /* မျှတအောင်ထိန်းချုပ် */
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
-  <img class="statement" src="MabStatement.jpg" alt="MAB Bank Statement"/>
+  <img src="CertificateMab.jpg" alt="MAB Certificate" />
 </body>
 </html>
